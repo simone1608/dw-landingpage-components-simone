@@ -1,4 +1,20 @@
 // slå dig løs her... 
 
-//eksempel på at udskrive alle overskrifter i services i konsollen:
-services.forEach(service => console.log(service.headline))
+
+let rootElement = document.querySelector("#root");
+
+function render() {
+    rootElement.innerHTML = "";
+
+
+    let mainElement = document.createElement("main");
+
+
+    rootElement.append(mainElement)
+}
+
+function init() {
+    render()
+}
+
+init()

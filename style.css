@@ -1,0 +1,197 @@
+/* #region RESETS */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* #endregion RESETS */
+
+/* #region hero */
+.hero {
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    left: 50px;
+    bottom: -90px;
+    width: 550px;
+    padding: 50px;
+    background-color: white;
+}
+
+.hero-headline {
+    font-size: 40px;
+}
+
+.hero-copy {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hero-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* #endregion hero */
+
+/* #region services */
+.services {
+    margin-top: 10rem;
+    display: flex;
+    gap: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 10rem;
+}
+
+.service-headline {
+    font-size: 1.65rem;
+    min-height: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.service-text {
+    color: grey;
+    min-height: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-link {
+    color: #f78065;
+    font-weight: bold;
+}
+
+/* #endregion services */
+
+/* #region facilities */
+.facilities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 10rem;
+}
+
+.facilities-headline {
+    width: 100%;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.facilitie {
+    flex: 1;
+}
+
+.facilitie-headline {
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.facilitie-text {
+    color: grey;
+    margin-bottom: 1rem;
+}
+
+/* #endregion facilities */
+
+/* #region sites */
+.sites {
+    display: flex;
+    gap: 8rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 10rem;
+}
+
+.site {
+    width: 25%;
+}
+
+.site-headline {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.site-text {
+    color: grey;
+    margin-bottom: 1.5rem;
+}
+
+.site-btnicon {
+    background-color: #f78065;
+    border: none;
+    padding: 0.3rem 5rem;
+}
+
+.sites-places {
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+}
+
+.sites-div {
+    flex: 1;
+}
+
+.sites-img {
+    width: 100%;
+    height: 27rem;
+    object-fit: cover;
+}
+
+.sites-name {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.sites-city {
+    color: grey;
+}
+
+/* #endregion sites */
+
+/* #region advantages */
+.advantages {
+    display: flex;
+    gap: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 10rem;
+}
+
+.advantage {
+    flex: 1;
+}
+
+.advantages-icon {
+    width: 2rem;
+    margin-bottom: 3rem;
+}
+
+.advantages-headline {
+    font-size: 1.65rem;
+    min-height: 4rem;
+}
+
+.advantages-text {
+    color: grey;
+    margin-top: 1rem;
+}
+
+/* #endregion advantages */
+
+/* #region footer */
